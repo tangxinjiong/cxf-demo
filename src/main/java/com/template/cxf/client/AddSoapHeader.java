@@ -25,7 +25,7 @@ public class AddSoapHeader extends AbstractSoapInterceptor {
         id.setTextContent("0001");
 
         Element pwd = doc.createElement("Password");
-        pwd.setTextContent("123");
+        pwd.setTextContent("123Ô¶¹ÅÆå»ê");
 
         Element root = doc.createElementNS("http://tempuri.org/", "MpSoapHeader");
         root.appendChild(id);
